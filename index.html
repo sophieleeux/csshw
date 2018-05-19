@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- FontAwesome CSS for icons -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Sophie Lee</title>
+</head>
+
+<body>
+  <div class="container clearfix">
+    <header>
+      <img src="images/image1.jpg" alt="avatar">
+
+      <!-- We use <span> within other elements to target text we want to manipulate -->
+      <!-- Note how this text is all uppercase, take a a look at the CSS to see how it's done -->
+
+      <h1>Hi,
+        <br>my name is
+        <span>Sophie Lee!</span>
+      </h1>
+    </header>
+
+    <!-- This <div> holds the left side content -->
+
+    <div id="leftContent">
+
+      <!-- Each content section is a <section> -->
+      <section>
+
+        <!-- Note the // added in front of each <h2>, take a a look at the CSS to see how it's done -->
+
+        <h2>About Me</h2>
+        <p>My name is Sophie and I am a new UX/UI designer.</p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul id="educationList">
+
+          <!-- We use the clearfix hack to stop all our floats from causing chaos! -->
+
+          <li class="clearfix">
+            <div class="educationLeft">
+              <p class="year">2018</p>
+            </div>
+            <div class="educationRight">
+              <p>
+                <span class="school">UCI UX/UI Boot Camp</span>
+                <br>
+                <span>UX/UI Design</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <ul id="experienceList">
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Freelance</span>
+                <br>
+                <span class="year">2015 - 2018</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">UX/UI Designer</span>
+                <br>
+                <span class="description">Creating amazing UX/UI experiences for buinesses.</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Prima Escrow</span>
+                <br>
+                <span class="year">2014 - 2015</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Assistant Escrow Officer</span>
+                <br>
+                <span class="description">Handled Escrow Accounts for Clients.</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">AXA LLC.</span>
+                <br>
+                <span class="year">2012 - 2014</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Financial Advisor</span>
+                <br>
+                <span class="description">Advised Clients on Financial Planning.</span>
+              </p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="experienceLeft">
+              <p>
+                <span class="where">Anthropologie</span>
+                <br>
+                <span class="year">2007 - 2011</span>
+              </p>
+            </div>
+            <div class="experienceRight">
+              <p>
+                <span class="profession">Receiver</span>
+                <br>
+                <span class="description">Took care of business back of house.</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- This <div> holds the right side content -->
+
+    <div id="rightContent">
+      <section>
+        <h2>Contact</h2>
+        <ul id="contactList">
+
+          <!-- Checkout those awesome icons from FontAwesome -->
+
+          <li>
+            <a href="tel:323-333-6721">
+              <i class="fas fa-phone"></i>
+              <span class="contactLink">323-333-6721</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:sophieleeux@gmail.com">
+              <i class="far fa-envelope"></i>
+              <span class="contactLink">Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+              <span class="contactLink">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul id="skillsList">
+          <li>Management</li>
+          <li>Training</li>
+          <li>Organization</li>
+          <li>UX/UI</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Hobbies</h2>
+        <ul id="hobbiesList">
+          <li>Yoga</li>
+          <li>Hiking</li>
+          <li>Tennis</li>
+          <li>Arts</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Fun Facts</h2>
+        <ul id="factsList">
+          <li>I'm Bilingual, working on 2 more languages.</li>
+          <li>I have two dogs.</li>
+        </ul>
+      </section>
+    </div>
+    <!-- NEW GRID DOWN HERE MEOW -->
+    <h1>Check out my projects!</h1>
+    <div class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
